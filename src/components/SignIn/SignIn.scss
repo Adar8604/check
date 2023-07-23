@@ -1,0 +1,90 @@
+.signIn {
+    .left {
+
+        position: absolute;
+        width: 588px;
+        height: 100vh;
+        left: 0px;
+        top: 0px;
+        background: #000000;
+
+        h1 {
+            color: #FFFFFF;
+            position: absolute;
+            width: 246px;
+            left: 171px;
+            top: 50vh;
+            font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 72px;
+
+        }
+    }
+
+    .right {
+        position: absolute;
+        background: #F5F5F5;
+        width: 946px;
+        height: 100vh;
+        left: 588px;
+        top: 0px;
+
+        h2 {
+            position: absolute;
+            font-weight: 700;
+            font-size: 36px;
+            font-family: 'Montserrat';
+            top: 30vh;
+            left: 33%;
+        }
+
+        p {
+            color: #000000;
+            position: absolute;
+            font-weight: 700;
+            font-size: 15px;
+            font-family: 'Montserrat';
+            top: 35vh;
+            left: 33%;
+        }
+
+        .google {
+
+            p {
+                position: absolute;
+                font-weight: 700;
+                font-size: 15px;
+                font-family: 'Montserrat';
+                top: 38vh;
+                left: 33%;
+                border: 2px solid black;
+                padding:3px
+                
+            }
+
+            img {
+                 width: 10%;
+            }
+        }
+
+        .apple {
+            p {
+                position: absolute;
+                font-weight: 700;
+                font-size: 15px;
+                font-family: 'Montserrat';
+                top: 38vh;
+                left: 49%;
+                border: 2px solid black;
+                padding:3px
+            }
+
+            img {
+                // width: 20%;
+            }
+        }
+
+        .sign_inForm {}
+
+    }
+}
